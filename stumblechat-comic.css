@@ -77,8 +77,12 @@
 
         margin-bottom: 0px !important;
     }
-.message.common {
+.message.common,#input>textarea {
   font-family: "Comic Fork Mono", monospace !important;
     color: #82b361 !important;
 }
+    #input>textarea {
+    background: darkslategray !important;
+    box-shadow: inset -5px -5px 8px rgba(0, 0, 0, 0.4) !important;
+    }
 }
