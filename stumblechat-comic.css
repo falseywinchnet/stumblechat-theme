@@ -15,11 +15,15 @@
         text-shadow: none !important;
         
     }
-    body,#userlist,h2.room-stats,h2.room-name {
+    body,#userlist,h2.room-stats,h2.room-name,.user-menu, .video-menu {
                 background: #1e1e1e !important;
 
     }
-    span.nickname{
+    
+    #userlist{
+        padding: 0px !important;
+    }
+   .message span.nickname{
         background: none !important;
         border: 0px !important;
         font-weight: bold !important;
@@ -28,6 +32,27 @@
         color:rgba(255,255,255,0.7) !important;
 
 
+    }
+    .bar > img{
+        display: none important;
+    }
+    .bar-item.no-image{
+        
+        display:none !important;
+    }
+    
+    .bar{
+        margin-bottom: unset !important;
+    }
+    
+    .bar-item span.username{
+        display: none !important;
+        
+    }
+    
+    span.username{
+        
+        height: 120% !important;
     }
 
     span.message-common{
@@ -46,9 +71,7 @@
     }
     
     
-    li.bar{
-        height: auto !important;
-    }
+   
     div.content {
         padding: 2px 1px !important;
 
